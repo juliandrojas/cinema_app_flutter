@@ -5,6 +5,23 @@ class Index extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Hola Mundo"),
+      ),
+      body: const Center(
+        child: Column(
+          children: [
+            Card(
+              child: Column(
+                children: [
+                  Text("QQQ"),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
